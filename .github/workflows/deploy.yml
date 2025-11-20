@@ -14,4 +14,4 @@ jobs:
     - run: docker build . -t rohitkumar7905/nextjs-app-for-cicd
     - run: echo "${{secrets.DOCKERHUB_PASSWORD}}" | docker login -u ${{secrets.DOCKERHUB_USERNAME}} --password-stdin
     # echo se value ko store krnge or stdin ke input me dedenge
-    - run: docker push rohitkumar7905/next-js-app-for-cicd:latest
+    - run: docker push rohitkumar7905/next-js-app-for-cicd
