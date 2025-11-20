@@ -48,3 +48,6 @@ jobs:
       
     - name: "Run Unit Tests"
       run: npm run test
+
+# Branch Protection Rule (if want to if all passed then only show merge button)
+# go to setting of repo -> branhes -> add rule for main(target brach) branch -> select require status checks to pass before merging
